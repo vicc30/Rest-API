@@ -1,0 +1,40 @@
+{
+  "name": "Post",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": "belongsTo",
+    "model": "user",
+    "foreignKey": "userId"
+  },
+  "Profile": {
+    "type": "belongsTo",
+    "model": "Profile",
+    "foreignKey": "profileId"
+  },
+  "Post": {
+    "type": "hasMany",
+    "model": "Post",
+    "foreignKey": ""
+  },
+  "acls": [],
+  "methods": {}
+}
