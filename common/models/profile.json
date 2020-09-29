@@ -38,8 +38,8 @@
       "type": "hasMany",
       "model": "Post",
       "foreignKey": ""
-    }
-  },
+    },
   "acls": [],
   "methods": {}
+}
 }
