@@ -24,7 +24,8 @@
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
     "loopback-component-storage": "^3.7.0",
-    "loopback-connector-mongodb": "^5.4.0"
+    "loopback-connector-mongodb": "^5.4.0",
+    "sharp": "^0.26.1"
   },
   "repository": {
     "type": "",
